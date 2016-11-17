@@ -12,6 +12,11 @@
         set its id to “@+id/edit_text”
         set its width to “match_parent” and height to “wrap_content”
     -->
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yo!" />
 
     <!--
         TODO 3 add Button
@@ -20,12 +25,18 @@
         set its width to “match_parent” and height to “wrap_content”
         set its text to “Click me!”
     -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me!" />
 
     <!--
         TODO 4 change TextView id
         set the id of the below TextView to “@+id/text_view”
     -->
     <TextView
+        android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
